@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-color: hsl(212, 45%, 89%);
+      display: flex;
+      width: 1440px;
+      height: 99vh;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    .container {
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      padding: 12px;
+      border-radius: 10px;
+      align-items: center;
+      font-family: 'Outfit', sans-serif;
+    }
+    img{
+      width: 300px;
+      border-radius: 10px;
+    }
+    h3{
+      font-weight: 700;
+    }
+    p{
+      color:hsl(220, 15%, 55%);
+      font-weight: 400;
+    }
+    @media only screen and (max-width: 400px)  {
+      body{
+       width: 375px;
+      }
+
+    }
+  </style>
+</head>
+<body >
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <div class="container">
+      <img src="images\image-qr-code.png" alt="">
+        <h3>Improve your front-end <br>
+           skill  by building projects</h3>
+        <p>Scan the QR code to visit Frontend <br>Mentor and take your coding skill to <br>the next level</p>
+      </div>
+  </div>
+</body>
+</html>
